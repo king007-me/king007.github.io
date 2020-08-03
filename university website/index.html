@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="Website">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="saqib ullah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KKKUK</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/kkkuklogo.png" />
+</head>
+<body background="H:\BI\img\banr.jpg">
+	  
+	  <!-- Banner + Marquee -->
+	  
+	  <center><a href="http://localhost//Website/index.html"><img class="banner"src="img/banr.jpg" /> </a></center>
+	  <center><b><marquee onmouseover="stop()"; onmouseout="start()" scrollamount="15">Welcome To Our Page Of Khushal Khan Khattak University Karak</marquee></b></center>
+        <!-- Nev bar drop down menu  -->
+        <div id="container">
+        <div id="nav">
+        <ul>
+            </li>
+            <li class="dropdown"><a href="manag.html"><span>Managment Science</span></a></li>
+            <li class="dropdown"><a href="geology.html"><span>Geology</span></a></li>
+            <li class="dropdown"><a href="BBA.html"><span>BBA</span></a>
+             
+            
+            <li class="dropdown"><a href="library.html"><span>Library & information science</span></a> </li><br>
+            <li class="dropdown"><a href="comuncation.html"><span>Comunication and media study</span></a></li>
+            <li class="dropdown"><a href="eng.html"><span>English</span></a>   </li>
+            <li class="dropdown"><a href="#"><span>Physics</span></a>  
+            	<ul>
+                    <li><a href="phy.html"><span>Physics</span></a></li>
+                   <li><a href="nano.html"><span>Nano technology</span></a></li>
+                    
+                </ul>
+         
+            <li class="dropdown"><a href="#"><span>Computer Science & bio-informatic</span></a>
+            	<ul>
+                    <li><a href="bio.html"><span>Bioinformatic</span></a></li>
+                    <li><a href="computer.html"><span>Computer Sceince</span></a></li>
+                    
+                </ul>
+
+            </ul>
+            </div>
+            </div>
+            <div  class="w3-content w3-section" style="max-width:400px">
+  <img class="mySlides" src="teacher pictures\body.jpg" border="8" width="1300px" height="450px" >
+  <img class="mySlides" src="Computer Science_1.jpg" border="8" width="1300px" height="450px">
+  <img class="mySlides" src="Computer Science_2.jpg" border="8" width="1300px" height="450px">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+<ul>
+<li><a href="#" class="twitter-small">Twitter</a></li>
+<li><a href="#" class="facebook-small">Facebook</a></li>
+<li><a href="#" class="pinterest-small">Pinterest</a></li>
+<li><a href="#" class="gplus-small">GPlus</a></li>
+<li><a href="#" class="rss-small">RSS</a></li>
+<li><a href="#" class="dribbble-small">Dribbble</a></li>
+<li><a href="#" class="linkedin-small">Linkedin</a></li>
+<li><a href="#" class="flickr-small">Flickr</a></li>
+<li><a href="#" class="stumble-small">Stumbleupon</a></li>
+<li><a href="#" class="vimeo-small">Vimeo</a></li>
+</ul>
+</body>
+</html>
